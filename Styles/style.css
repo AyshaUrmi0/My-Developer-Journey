@@ -80,7 +80,6 @@ p {
 .card {
     background-color: #fff;
     border-radius: 10px;
-    
     display: flex;
     max-width: 600px;
     overflow: hidden;
@@ -95,7 +94,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: left;
+    /* text-align: left; */
 }
 
 .learn-more {
@@ -103,12 +102,10 @@ p {
     border: 1px solid rgb(195, 200, 212);
     opacity: 0.7;
     font-family: 'Azeret Mono';
-    text-align: center;
+    /* text-align: center; */
 }
 
-.card.reverse {
-    flex-direction: row-reverse;
-}
+
 
 /* style main content ends here */
 
@@ -279,7 +276,7 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 10
 
 
 .footer-text{
-    text-size: 18px;
+    font-size: 18px;
 }
 
 .footer-icons{
