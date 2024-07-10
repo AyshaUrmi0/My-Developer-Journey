@@ -94,15 +94,16 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* text-align: left; */
+    text-align: left;
 }
 
 .learn-more {
+   
     box-sizing: border-box;
     border: 1px solid rgb(195, 200, 212);
     opacity: 0.7;
     font-family: 'Azeret Mono';
-    /* text-align: center; */
+   
 }
 
 
