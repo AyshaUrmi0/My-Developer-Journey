@@ -259,11 +259,27 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 10
 
 /* Footer starts here */
 
-.copyright {
-    width: 1140px;
-    margin: 0 auto;
-border-radius: 16px;
 
+    .copyright {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        border-radius: 16px;
+        background-color: rgb(166, 184, 184);
+        color: #0d0404;
+        font-family: "Azeret Mono";
+    }
+    
+
+
+.footer-text{
+    text-size: 18px;
+}
+
+.footer-icons{
+    display: flex;
+    gap: 20px;
 
 }
 
