@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     margin: 0;
@@ -114,16 +114,27 @@ p {
 
 /* inspiration style starts here */
 .inspiration {
-    background: white; /* Ensure the inspiration section has its own background color */
+    display: flex;
+width: 1140px;
+flex-direction: column;
+align-items: center;
+gap: 48px;
+    background: white;
     padding: 20px;
-     width: 1140px;
-height: 5245px;
+    border-radius: 16px;
+    
 margin: 0 auto;
 }
 
 .inspiration-content {
     text-align: center;
     margin-bottom: 20px;
+    display: flex;
+width: 100%;
+flex-direction: column;
+align-items: center;
+gap: 24px;
+border-radius: 16px;
 }
 
 .inspiration-video {
@@ -131,12 +142,128 @@ margin: 0 auto;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
     text-align: center;
-    padding: 20px;
+   
+    
     
 }
-.video-container {
-    border: 2px solid rgb(210, 201, 201);
-    border-radius: 10px;
-    overflow: hidden;
-}
+
 /* inspiration style ends here */
+
+/* My next target design starts here  */
+.target-cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+
+}
+
+.target-section{
+    width: 1140px;
+    margin: 0 auto;
+    gap: 20px;
+    
+}
+.target-content{
+    width:1140px;
+    
+    display: flex;
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    border-radius: 16px;
+}
+.mycard {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: left;
+    margin-left: 20px;
+  
+
+}
+.html-card {
+    background-color: #fff5f5;
+}
+
+.css-card {
+    background-color: #f0f4ff;
+}
+
+.js-card {
+    background-color: #fffbea;
+}
+
+.learn-more:hover{
+    color: #0D1321;
+    text-decoration-line: underline;
+}
+ 
+/* My next target design ends here  */
+
+/* Need support starts here.. */
+.support-section {
+    width: 1140px;
+    margin: 0 auto;
+    gap: 20px;
+    /* background: url('../assets/handshake.jpg') no-repeat center center/cover; */
+    text-align: center;
+    padding: 64px 0;
+    position: relative;
+    border-radius: 16px;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(../assets/handshake.jpg) lightgray 50% / cover no-repeat;
+}
+
+.support-container h1,p{
+    color: #FFF;
+    font-family: "Azeret Mono";
+}
+
+.support-container p {
+    opacity: 0.7;
+}
+
+.feedback-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedback-form input {
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    width: 60%;
+    margin-right: 10px;
+}
+.feedback-form button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.feedback-form button:hover {
+    background-color: #ddd;
+}
+/* Need support ends here.. */
+
+/* Footer starts here */
+
+.copyright {
+    width: 1140px;
+    margin: 0 auto;
+border-radius: 16px;
+
+
+}
+
